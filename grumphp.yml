@@ -1,0 +1,13 @@
+grumphp:
+    tasks:
+        phpstan:
+            level: 4
+        phpmd:
+        phpcs:
+            standard: "PSR2"
+            ignore_patterns:
+                - "tests"
+#        phpcsfixer:
+#        infection:
+        phpunit:
+            testsuite: "tests"
